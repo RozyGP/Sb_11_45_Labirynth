@@ -449,7 +449,7 @@ AnimationClip:
   m_HasMotionFloatCurves: 0
   m_Events:
   - time: 2.1333334
-    functionName: 
+    functionName: UseKey
     data: 
     objectReferenceParameter: {fileID: 0}
     floatParameter: 0

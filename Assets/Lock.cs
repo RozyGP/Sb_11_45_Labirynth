@@ -16,6 +16,14 @@ public class Lock : MonoBehaviour
         key = GetComponent<Animator>();
     }
 
+    private void Update()
+    {
+        if(Input.GetKeyDown(KeyCode.E) && iCanOpen && !locked)
+        {
+            key.SetBool("useKey", CheckTheKey());
+        }
+    }
+
     public void UseKey()
     {
         door.CloseOpen();
