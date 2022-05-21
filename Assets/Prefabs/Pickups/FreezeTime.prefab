@@ -58,6 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: f017d2cb3e0640149a21153fde468aa5, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickedClip: {fileID: 8300000, guid: d8a96520684ea524b9214ea4188418d3, type: 3}
   freezeTime: 10
 --- !u!1001 &6544409951953724913
 PrefabInstance:

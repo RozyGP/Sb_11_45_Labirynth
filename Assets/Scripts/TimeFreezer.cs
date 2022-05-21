@@ -8,6 +8,7 @@ public class TimeFreezer : PickUp
     public override void Picked()
     {
         GameManager.gameManager.FreezeTime(freezeTime);
-       Destroy(this.gameObject);
+        GameManager.gameManager.PlayClip(pickedClip);
+        Destroy(this.gameObject);
     }
 }

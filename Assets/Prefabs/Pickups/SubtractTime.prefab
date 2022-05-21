@@ -58,6 +58,7 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 2f1e442e3c52c1b44b9a256d0b03914d, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+  pickedClip: {fileID: 8300000, guid: d8a96520684ea524b9214ea4188418d3, type: 3}
   addTime: 0
   time: 5
 --- !u!1001 &4279175816243328547

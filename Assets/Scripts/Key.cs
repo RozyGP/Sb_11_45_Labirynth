@@ -8,6 +8,7 @@ public class Key : PickUp
     public override void Picked()
     {
         GameManager.gameManager.AddKey(keyColor);
+        GameManager.gameManager.PlayClip(pickedClip);
         Destroy(this.gameObject);
     }
 }
